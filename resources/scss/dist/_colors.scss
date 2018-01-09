@@ -34,6 +34,17 @@ $flash-yellow: #EDB83D;
 $sunshine-yellow: #FBCD4B;
 $fancy-yellow: #FAAE3D;
 $typical-yellow: #E29930;
+
+
+
+
+
+
+// Color Pallete
+
+//Modish City Life
+$dark-aqua-color: #488A99;
+
 // Generic
 $pine-black: #34675C;
 $dark-navy-black: #011A27;
@@ -44,6 +55,8 @@ $petal: #F98866;
 $poppy: #FF420E;
 $stem: #80BD9E;
 $spring-green: #89DA59;
+
+$gray-color: #B4B4B4;
 
 
 
@@ -139,4 +152,10 @@ $spring-green: #89DA59;
 }
 .seawood-black{
 	background-color: $seawood-black !important;
+}
+.dark-aqua-color{
+	background-color: $dark-aqua-color !important;
+}
+.gray-color{
+	background-color: $gray-color !important;
 }
