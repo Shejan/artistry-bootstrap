@@ -1,0 +1,36 @@
+@import "colors";
+
+.fresh-n-bright{
+	.navbar{
+		background-color: $poppy !important;
+		a{
+			color:$white !important;
+		}
+		.dropdown-item{
+			color: $poppy !important;
+		}
+	}
+	.btn{
+		background-color: $stem !important;
+		color: $white;
+	}
+	h1, h2, h3, h4, h5, h6{
+		color: $poppy;
+	}
+	.card-header{
+		background-color: $stem !important;
+	}
+	a{
+		color:$white !important;
+		&:hover{
+			color: $petal !important;
+		}
+	}
+	.border{
+		border-color: $spring-green !important;
+	}
+	.content-holder{
+		background-color: $petal !important;
+		
+	}
+}
