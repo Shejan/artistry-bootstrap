@@ -35,8 +35,20 @@ $sunshine-yellow: #FBCD4B;
 $fancy-yellow: #FAAE3D;
 $typical-yellow: #E29930;
 
+// Brown
 
+$cloud-brown: #693D3D;
+$stone-brown: #7D5642;
+$charred-brown: #752A07;
+$fancy-brown: #662E1C;
+$typical-brown: #46211A;
 
+// Green
+$spring-green: #89DA59;
+$lime-green: #8EBA43;
+$grass-green: #486B00;
+$fancy-green: #4B7447;
+$typical-green: #2E4600;
 
 
 
@@ -132,6 +144,40 @@ $gray-color: #B4B4B4;
 }
 .typical-yellow{
 	background-color: $typical-yellow !important;
+}
+
+// Brown
+.cloud-brown{
+	background-color: $cloud-brown !important;
+}
+.stone-brown{
+	background-color: $stone-brown !important;
+}
+.charred-brown{
+	background-color: $charred-brown !important;
+}
+.fancy-brown{
+	background-color: $fancy-brown !important;
+}
+.typical-brown{
+	background-color: $typical-brown !important;
+}
+
+// Green
+.spring-green{
+	background-color: $spring-green !important;
+}
+.lime-green{
+	background-color: $lime-green !important;
+}
+.grass-green{
+	background-color: $grass-green !important;
+}
+.fancy-green{
+	background-color: $fancy-green !important;
+}
+.typical-green{
+	background-color: $typical-green !important;
 }
 
 
