@@ -50,12 +50,19 @@ $grass-green: #486B00;
 $fancy-green: #4B7447;
 $typical-green: #2E4600;
 
-
+// Gray
+$paper-gray: #EFEFEF;
+$soft-gray: #DDDEDE;
+$blue-gray: #7BA4A8;
+$fancy-gray: #B4B4B4;
+$typical-gray: #626D71;
 
 // Color Pallete
 
 //Modish City Life
 $dark-aqua-color: #488A99;
+
+
 
 // Generic
 $pine-black: #34675C;
@@ -66,9 +73,8 @@ $night-black: #000B29;
 $petal: #F98866;
 $poppy: #FF420E;
 $stem: #80BD9E;
-$spring-green: #89DA59;
+$ivory: #F1F3CE;
 
-$gray-color: #B4B4B4;
 
 
 
@@ -180,8 +186,22 @@ $gray-color: #B4B4B4;
 	background-color: $typical-green !important;
 }
 
-
-
+// Gray
+.paper-gray{
+	background-color: $paper-gray !important;
+}
+.soft-gray{
+	background-color: $soft-gray !important;
+}
+.blue-gray{
+	background-color: $blue-gray !important;
+}
+.fancy-gray{
+	background-color: $fancy-gray !important;
+}
+.typical-gray{
+	background-color: $typical-gray !important;
+}
 
 
 .night-black{
@@ -202,6 +222,6 @@ $gray-color: #B4B4B4;
 .dark-aqua-color{
 	background-color: $dark-aqua-color !important;
 }
-.gray-color{
-	background-color: $gray-color !important;
+.ivory{
+	background-color: $ivory !important;
 }
