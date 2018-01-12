@@ -1,0 +1,8 @@
+
+@mixin sh-gradient($color-1,$color-2){
+	background-color: $color-1;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, $color-1), color-stop($color-2));
+	background-image: -webkit-linear-gradient(left, $color-1 0%, $color-2);
+	background-image: -o-linear-gradient(left, $color-1 0%, $color-2);
+	background-image: linear-gradient(to right,$color-1 0%, $color-2 100% );
+}

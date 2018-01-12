@@ -1,3 +1,4 @@
+
 $white:#ffffff;
 $black:#000000;
 
@@ -336,6 +337,66 @@ $blue-grey-7: #455A64;
 $blue-grey-8: #37474F;
 $blue-grey-9: #263238;
 
+// RGBA COLORS
+$rgba-red-shallow: rgba(244,67,54,0.15);
+$rgba-red-medium: rgba(244,67,54,0.45);
+$rgba-red-strong: rgba(244,67,54,0.75);
+
+$rgba-pink-shallow: rgba(233,30,99,0.15);
+$rgba-pink-medium: rgba(233,30,99,0.45);
+$rgba-pink-strong: rgba(233,30,99,0.75);
+
+$rgba-purple-shallow: rgba(156,39,176,0.15);
+$rgba-purple-medium: rgba(156,39,176,0.45);
+$rgba-purple-strong: rgba(156,39,176,0.75);
+
+$rgba-indigo-shallow: rgba(103,58,183,0.15);
+$rgba-indigo-medium: rgba(103,58,183,0.45);
+$rgba-indigo-strong: rgba(103,58,183,0.75);
+
+$rgba-blue-shallow: rgba(3,169,244,0.15);
+$rgba-blue-medium: rgba(3,169,244,0.45);
+$rgba-blue-strong: rgba(3,169,244,0.75);
+
+$rgba-cyan-shallow: rgba(0,188,212,0.15);
+$rgba-cyan-medium: rgba(0,188,212,0.45);
+$rgba-cyan-strong: rgba(0,188,212,0.75);
+
+$rgba-teal-shallow: rgba(0,150,136,0.15);
+$rgba-teal-medium: rgba(0,150,136,0.45);
+$rgba-teal-strong: rgba(0,150,136,0.75);
+
+$rgba-green-shallow: rgba(76,175,80,0.15);
+$rgba-green-medium: rgba(76,175,80,0.45);
+$rgba-green-strong: rgba(76,175,80,0.75);
+
+$rgba-lime-shallow: rgba(205,220,57,0.15);
+$rgba-lime-medium: rgba(205,220,57,0.45);
+$rgba-lime-strong: rgba(205,220,57,0.75);
+
+$rgba-yellow-shallow: rgba(255,235,59,0.15);
+$rgba-yellow-medium: rgba(255,235,59,0.45);
+$rgba-yellow-strong: rgba(255,235,59,0.75);
+
+$rgba-amber-shallow: rgba(255,193,7,0.15);
+$rgba-amber-medium: rgba(255,193,7,0.45);
+$rgba-amber-strong: rgba(255,193,7,0.75);
+
+$rgba-orange-shallow: rgba(255,87,34,0.15);
+$rgba-orange-medium: rgba(255,87,34,0.45);
+$rgba-orange-strong: rgba(255,87,34,0.75);
+
+$rgba-brown-shallow: rgba(121,85,72,0.15);
+$rgba-brown-medium: rgba(121,85,72,0.45);
+$rgba-brown-strong: rgba(121,85,72,0.75);
+
+$rgba-blue-grey-shallow: rgba(96,125,139,0.15);
+$rgba-blue-grey-medium: rgba(96,125,139,0.45);
+$rgba-blue-grey-strong: rgba(96,125,139,0.75);
+
+$rgba-black-shallow: rgba(0,0,0,0.15);
+$rgba-black-medium: rgba(0,0,0,0.45);
+$rgba-black-strong: rgba(0,0,0,0.75);
 
 
 .black{
@@ -344,13 +405,6 @@ $blue-grey-9: #263238;
 .white{
 	background-color: $white !important;
 }
-
-
-
-
-
-
-
 
 
 //Deviation of Black 
@@ -1241,11 +1295,201 @@ $blue-grey-9: #263238;
 .blue-grey-9{
 	background-color: $blue-grey-9 !important;
 }
+// RGBA COLORS
+.rgba-red-shallow{
+	background-color: $rgba-red-shallow !important;
+}
+.rgba-red-medium{
+	background-color: $rgba-red-medium !important;
+}
+.rgba-red-strong{
+	background-color: $rgba-red-strong !important;
+}
+.rgba-pink-shallow{
+	background-color: $rgba-pink-shallow !important;
+}
+.rgba-pink-medium{
+	background-color: $rgba-pink-medium !important;
+}
+.rgba-pink-strong{
+	background-color: $rgba-pink-strong !important;
+}
+.rgba-purple-shallow{
+	background-color: $rgba-purple-shallow !important;
+}
+.rgba-purple-medium{
+	background-color: $rgba-purple-medium !important;
+}
+.rgba-purple-strong{
+	background-color: $rgba-purple-strong !important;
+}
+.rgba-indigo-shallow{
+	background-color: $rgba-indigo-shallow !important;
+}
+.rgba-indigo-medium{
+	background-color: $rgba-indigo-medium !important;
+}
+.rgba-indigo-strong{
+	background-color: $rgba-indigo-strong !important;
+}
+.rgba-blue-shallow{
+	background-color: $rgba-blue-shallow !important;
+}
+.rgba-blue-medium{
+	background-color: $rgba-blue-medium !important;
+}
+.rgba-blue-strong{
+	background-color: $rgba-blue-strong !important;
+}
+.rgba-cyan-shallow{
+	background-color: $rgba-cyan-shallow !important;
+}
+.rgba-cyan-medium{
+	background-color: $rgba-cyan-medium !important;
+}
+.rgba-cyan-strong{
+	background-color: $rgba-cyan-strong !important;
+}
+.rgba-teal-shallow{
+	background-color: $rgba-teal-shallow !important;
+}
+.rgba-teal-medium{
+	background-color: $rgba-teal-medium !important;
+}
+.rgba-teal-strong{
+	background-color: $rgba-teal-strong !important;
+}
+.rgba-green-shallow{
+	background-color: $rgba-green-shallow !important;
+}
+.rgba-green-medium{
+	background-color: $rgba-green-medium !important;
+}
+.rgba-green-strong{
+	background-color: $rgba-green-strong !important;
+}
+.rgba-lime-shallow{
+	background-color: $rgba-lime-shallow !important;
+}
+.rgba-lime-medium{
+	background-color: $rgba-lime-medium !important;
+}
+.rgba-lime-strong{
+	background-color: $rgba-lime-strong !important;
+}
+.rgba-yellow-shallow{
+	background-color: $rgba-yellow-shallow !important;
+}
+.rgba-yellow-medium{
+	background-color: $rgba-yellow-medium !important;
+}
+.rgba-yellow-strong{
+	background-color: $rgba-yellow-strong !important;
+}
+.rgba-amber-shallow{
+	background-color: $rgba-amber-shallow !important;
+}
+.rgba-amber-medium{
+	background-color: $rgba-amber-medium !important;
+}
+.rgba-amber-strong{
+	background-color: $rgba-amber-strong !important;
+}
+.rgba-orange-shallow{
+	background-color: $rgba-orange-shallow !important;
+}
+.rgba-orange-medium{
+	background-color: $rgba-orange-medium !important;
+}
+.rgba-orange-strong{
+	background-color: $rgba-orange-strong !important;
+}
+.rgba-brown-shallow{
+	background-color: $rgba-brown-shallow !important;
+}
+.rgba-brown-medium{
+	background-color: $rgba-brown-medium !important;
+}
+.rgba-brown-strong{
+	background-color: $rgba-brown-strong !important;
+}
+.rgba-blue-grey-shallow{
+	background-color: $rgba-blue-grey-shallow !important;
+}
+.rgba-blue-grey-medium{
+	background-color: $rgba-blue-grey-medium !important;
+}
+.rgba-blue-grey-strong{
+	background-color: $rgba-blue-grey-strong !important;
+}
+.rgba-black-shallow{
+	background-color: $rgba-black-shallow !important;
+}
+.rgba-black-medium{
+	background-color: $rgba-black-medium !important;
+}
+.rgba-black-strong{
+	background-color: $rgba-black-strong !important;
+}
 
-
-
-
-
+// Gradient Colors
+.g-blue{
+ 	@include sh-gradient($sky-blue, $blue-8);
+}
+.g-blue-purple{
+ 	@include sh-gradient($sky-blue, $purple-8);
+}
+.g-blue-black{
+ 	@include sh-gradient($blue-5, $coal-black);
+}
+.g-pink{
+	@include sh-gradient($pink, $pink-8);
+}
+.g-pink-purple{
+	@include sh-gradient($pink, $purple-7);
+}
+.g-pink-purple{
+	@include sh-gradient($pink, $purple-7);
+}
+.g-pink-blue{
+	@include sh-gradient($pink, $blue-9);
+}
+.g-cyan{
+	@include sh-gradient($cyan, $cyan-8);
+}
+.g-cyan-yellow{
+	@include sh-gradient($cyan-8, $yellow-7);
+}
+.g-cyan-black{
+	@include sh-gradient($cyan, $matte-black);
+}
+.g-green{
+	@include sh-gradient($green, $green-8);
+}
+.g-green-orange{
+	@include sh-gradient($green, $orange-8);
+}
+.g-green-black{
+	@include sh-gradient($green, $matte-black);
+}
+.g-frost{
+	@include sh-gradient($aegean-blue, $typical-black);
+}
+.g-dusk{
+	@include sh-gradient($deep-orange-4, $aegean-blue);
+}
+.g-aqua{
+	@include sh-gradient($cyan-5, $royal-blue);
+}
+.g-haze{
+	@include sh-gradient($cyan-3, $indigo-9);
+}
+.g-sunset{
+	@include sh-gradient($orange-9, $aegean-blue);
+}
+.g-pacific-dream{
+	@include sh-gradient($green-4, $aegean-blue);
+}
 
 
 
