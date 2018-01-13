@@ -1,3 +1,12 @@
+.row-safari{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 .content-holder{
 	display: block;
 	margin-top:3%;
@@ -6,4 +15,18 @@
 			padding: 3%;
 	}
 }
+.overlay{
+	position:relative;
+	img, video{
 
+	}
+	.mask{
+		overflow: hidden;
+		padding:0;
+		margin:0;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+	}
+}

@@ -338,9 +338,9 @@ $blue-grey-8: #37474F;
 $blue-grey-9: #263238;
 
 // RGBA COLORS
-$rgba-red-shallow: rgba(244,67,54,0.15);
-$rgba-red-medium: rgba(244,67,54,0.45);
-$rgba-red-strong: rgba(244,67,54,0.75);
+$rgba-red-shallow: rgba($red,0.15);
+$rgba-red-medium: rgba($red,0.45);
+$rgba-red-strong: rgba($red,0.75);
 
 $rgba-pink-shallow: rgba(233,30,99,0.15);
 $rgba-pink-medium: rgba(233,30,99,0.45);
@@ -1434,63 +1434,80 @@ $rgba-black-strong: rgba(0,0,0,0.75);
 
 // Gradient Colors
 .g-blue{
- 	@include sh-gradient($sky-blue, $blue-8);
+ 	@include s-h-gradient($sky-blue, $blue-8);
 }
 .g-blue-purple{
- 	@include sh-gradient($sky-blue, $purple-8);
+ 	@include s-h-gradient($sky-blue, $purple-8);
 }
 .g-blue-black{
- 	@include sh-gradient($blue-5, $coal-black);
+ 	@include s-h-gradient($blue-5, $coal-black);
 }
 .g-pink{
-	@include sh-gradient($pink, $pink-8);
+	@include s-h-gradient($pink, $pink-8);
 }
 .g-pink-purple{
-	@include sh-gradient($pink, $purple-7);
+	@include s-h-gradient($pink, $purple-7);
 }
 .g-pink-purple{
-	@include sh-gradient($pink, $purple-7);
+	@include s-h-gradient($pink, $purple-7);
 }
 .g-pink-blue{
-	@include sh-gradient($pink, $blue-9);
+	@include s-h-gradient($pink, $blue-9);
 }
 .g-cyan{
-	@include sh-gradient($cyan, $cyan-8);
+	@include s-h-gradient($cyan, $cyan-8);
 }
 .g-cyan-yellow{
-	@include sh-gradient($cyan-8, $yellow-7);
+	@include s-h-gradient($cyan-8, $yellow-7);
 }
 .g-cyan-black{
-	@include sh-gradient($cyan, $matte-black);
+	@include s-h-gradient($cyan, $matte-black);
 }
 .g-green{
-	@include sh-gradient($green, $green-8);
+	@include s-h-gradient($green, $green-8);
 }
 .g-green-orange{
-	@include sh-gradient($green, $orange-8);
+	@include s-h-gradient($green, $orange-8);
 }
 .g-green-black{
-	@include sh-gradient($green, $matte-black);
+	@include s-h-gradient($green, $matte-black);
 }
 .g-frost{
-	@include sh-gradient($aegean-blue, $typical-black);
+	@include s-h-gradient($aegean-blue, $typical-black);
 }
 .g-dusk{
-	@include sh-gradient($deep-orange-4, $aegean-blue);
+	@include s-h-gradient($deep-orange-4, $aegean-blue);
 }
 .g-aqua{
-	@include sh-gradient($cyan-5, $royal-blue);
+	@include s-h-gradient($cyan-5, $royal-blue);
 }
 .g-haze{
-	@include sh-gradient($cyan-3, $indigo-9);
+	@include s-h-gradient($cyan-3, $indigo-9);
 }
 .g-sunset{
-	@include sh-gradient($orange-9, $aegean-blue);
+	@include s-h-gradient($orange-9, $aegean-blue);
 }
 .g-pacific-dream{
-	@include sh-gradient($green-4, $aegean-blue);
+	@include s-h-gradient($green-4, $aegean-blue);
 }
-
+.tg-pink-blue{
+	@include t-h-gradient($rgba-pink-shallow, $royal-blue);
+}
+.tg-red-blue{
+	@include t-h-gradient($rgba-red-shallow, $blue-9);
+}
+.tg-blue-purple{
+	@include t-h-gradient($rgba-blue-shallow, $purple-9);
+}
+.tg-haze{
+	@include t-h-gradient($rgba-cyan-shallow, $indigo-9);
+}
+.tg-white{
+	@include t-v-gradient(rgba($white,0.15), rgba($white,0.8));
+}
+.tg-black{
+	@include t-v-gradient(rgba($black,0.15), rgba($black,0.8));
+}
 
 
 
